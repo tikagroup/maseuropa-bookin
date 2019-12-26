@@ -1,0 +1,15 @@
+{
+    "name": "tikagroup/maseuropa-booking",
+    "description": "Package for Maseuropa integration.",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "ext-mbstring": "*",
+        "wsdltophp/packagebase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maseuropa\\Booking\\": "./src\\"
+        }
+    }
+}
